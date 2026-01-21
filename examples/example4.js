@@ -4,6 +4,7 @@
 3. Comparison Operators like ==, ===, !=, !==, >, <, >=, <=
 4. Logical Operators like &&, ||, ! (and, or, not)
 5. Bitwise Operators like &, |, ^, ~, <<, >>, >>> 
+6. coalescing Operator (??)
 
 == is loose equality operator that is it performs type coercion before comparing the two values
 for instance '5 == 5' is true (because js converts string '5' to number 5 before comparison)
