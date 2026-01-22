@@ -1,3 +1,18 @@
+const user = [
+    {
+        name: "aditi",
+        age : 10
+    },
+    {
+        name: "karan",
+        age : 25
+    },
+    {
+        name: "neha",
+        age: 22
+    }
+];
+
 //array functions
 //1. forEach : executes a provided function once for each array element.
 
@@ -20,7 +35,10 @@ user.forEach( usr => {
 const ages = user.map( usr => usr.age);
 console.log("ages: ", ages);
 
+const names = user.map((p,i) => i + ". " + p.name).forEach(nameStr => console.log(nameStr.toUpperCase()));
+//method chaining : first map then forEach. 
+
 //3. filter : creates a new array with all elements that pass the test implemented by the provided function.
 
-const validAges = user.filter(usr => usr.age > 20);
+const validAges = user.filter(usr => usr.age > 20).forEach(usr => console.log(usr.name + " is an adult."));
 console.log("the person with valid age is: ", validAges);
