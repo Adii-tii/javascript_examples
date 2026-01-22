@@ -1,0 +1,22 @@
+json : js object notation
+very flexible data exchange format.
+used to transmit data between a server and web application as text.
+
+JSON syntax rules:
+1. Data is in name/value pairs.
+2. Data is separated by commas.
+3. Curly braces hold objects.
+4. Square brackets hold arrays.
+
+example of json object
+let user =  {
+    "name" : "aditi",
+    "age" : 20,
+    "isAdmin" : false,
+    "courses" : ["html", "css", "js"],
+}
+
+
+JSON methods in js
+//1. JSON.stringify() - converts object to string
+//2. JSON.parse() - converts string to object
