@@ -23,8 +23,7 @@ const user = [
 
 
 user.flatMap((p,i) => p.map(person => person.name)).forEach(nameStr => console.log(nameStr));
+
+
 //flatMap flattens the array by one level.
-
-
-
 console.log(user.flat());
