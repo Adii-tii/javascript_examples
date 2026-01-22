@@ -2,6 +2,10 @@ let userRole = "admin";
 let isAuthenticated = true;
 let userAge = 25;
 
+let userRole2 = "user";
+let isAuthenticated2 = true;
+let userAge2 = 20;
+
 function adminLogin(role, authenticated, age){
     if(!authenticated){
         console.log("Please Log in.");
@@ -15,9 +19,4 @@ function adminLogin(role, authenticated, age){
 }
 
 adminLogin(userRole, isAuthenticated, userAge);
-
-let userRole2 = "user";
-let isAuthenticated2 = true;
-let userAge2 = 20;
-
 adminLogin(userRole2, isAuthenticated2, userAge2);
