@@ -41,4 +41,3 @@ const names = user.map((p,i) => i + ". " + p.name).forEach(nameStr => console.lo
 //3. filter : creates a new array with all elements that pass the test implemented by the provided function.
 
 const validAges = user.filter(usr => usr.age > 20).forEach(usr => console.log(usr.name + " is an adult."));
-console.log("the person with valid age is: ", validAges);
