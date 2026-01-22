@@ -1,6 +1,4 @@
-// key value pairs separted by colon
-// pairs separated by comma
-// enclosed in curly braces {}
+//A JavaScript (JS) object is a non-primitive data type used to store collections of data and more complex entities. It is an unordered collection of properties, where each property is a key-value pair. 
 
 let user = {
     name : "aditi",
